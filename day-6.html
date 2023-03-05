@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>day6</title>
+    <style>
+        #parent>div:nth-child(1)>div:nth-child(3) {
+            border: 1px solid orange;
+        }
+
+        #parent > div:nth-child(2) > div:nth-child(2) {
+            /* border: 1px solid blueviolet; */
+            font-size: 40px;
+        }
+        #parent > div:nth-child(2) > div:nth-child(2) > div:nth-child(2){ 
+            color: gray;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="parent">
+        <div id="children1">
+            <div id="grandchildren1"></div>
+            <div id="grandchildren2"></div>
+            <div id="grandchildren3">Target</div>
+        </div>
+        <div id="children2">
+            <div id="grandchildren1"></div>
+            <div id="grandchildren2">Target2
+                <div id="child1"></div>
+                <div id="child2">Target 3</div>
+                <div id="child3"></div>
+            </div>
+            <div id="grandchildren3"></div>
+        </div>
+    </div>
+</body>
+
+</html>
