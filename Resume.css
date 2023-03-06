@@ -1,76 +1,215 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
 
-  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 
-:root{
+:root {
     /* for text */
     --primary-font: 'Roboto', sans-serif;
 
 }
 
-body{
+body {
     font-family: var(--primary-font)
 }
 
+.title {
+    margin: 15px 15px 30px 15px;
+}
 
-.header{
+th,td {
+    /* width: 25%; */
+    border: 1px solid black;
+    text-align: center;
+}
+
+th {
+    background-color: lightblue;
+}
+
+/* Header section */
+
+.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: lightgrey;
 }
-.header-left{
+
+.header-left {
     display: flex;
     justify-content: space-between;
     margin: 10px;
     padding: 10px 100px;
-    
+
 }
-.header-left > h2{
+
+.header-left>h2 {
     font-size: 2.5rem;
     font-weight: 3.5rem;
     margin-left: 80px;
 }
-.header-right{
+
+.header-right {
     margin: 10px;
     padding: 10px 100px;
+
 }
-.header-right h3 i{
+
+.header-right h3 i {
     padding: 6px;
 }
-hr{
+
+hr {
     margin: 15px;
-    
+
 }
-.header-item{
+
+.header-item {
     padding: 5px;
 }
 
-/* Education section */
-.education-wrapper{
-    margin: 10px;
+/* First wrap = education + project */
+
+.first-wrapper {
+    display: flex;
 }
-th,td{
-    width: 25%;
+
+
+/* Education */
+
+.education {
+    width: 50%;
+    /* border: 1px solid black; */
+}
+
+.first-wrapper table {
+    width: 90%;
+    height: 170px;
     border: 1px solid black;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+
+/* Experieance  */
+
+.experieance {
+    width: 50%;
+}
+
+.experieance>table {
+    width: 90%;
+    height: 110px;
+    border: 1px solid black;
+    margin: auto;
+
+}
+
+/* Second wrap */
+.second-wrapper {
+    display: flex;
+}
+
+/* Project */
+
+.project {
+    width: 50%;
+    /* border: 1px solid black; */
+}
+
+.project>ol {
+    margin: 15px;
+}
+
+.project>ol>li {
+    /* font-weight: bold; */
+    margin: 0px 0px 15px 0px;
+    list-style: none;
+
+}
+
+.project>ol>li>div {
     text-align: center;
 }
-th{
+
+.project img {
+    margin: 15px;
+}
+
+/* Tech skills */
+
+.tech-skills{
+    width: 50%;
+}
+
+p {
+    font-size: 20px;
+}
+
+.tech-skills ul li{
+    list-style: none;
+    margin: 15px 80px 0px 0px;
+}
+
+.tech-skills .container {
+    background-color: rgb(192, 192, 192);
+    width: 100%;
+    height: 15px;
+    border-radius: 15px;
+    margin: 8px 0px 13px 0px;
+}
+.tech-skills .skill {
     background-color: lightblue;
+    color: white;
+    height: 15px;
+    /* padding: 1%; */
+    text-align: right;
+    font-size: 20px;
+    border-radius: 15px;
 }
-.education-wrapper{
-    margin-left: 100px;
+
+.tech-skills .html5 {
+    width: 93%;
 }
 
+.tech-skills .css3 {
+    width: 85%;
+}
+.tech-skills .js {
+    width: 80%;
+}
+.tech-skills .reactjs {
+    width: 77%;
+}
+.tech-skills .nodejs {
+    width: 70%;
+}
+.tech-skills .mongodb {
+    width: 76%;
+}
 
+/* Third-wrapper */
 
+.third-wrapper{
+    display: flex;
+}
 
+/* Achievements */
 
+.achievements{
+    width: 50%;
+}
+
+/* Hobbies */
+
+.hobbies{
+    width: 50%;
+}
 
 
 
