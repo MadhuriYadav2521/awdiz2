@@ -15,8 +15,8 @@
 
     
 /* } */
-/* div{
-    width: 25%;
+div{
+    width: 50%;
     height: 50%;
-    border: 1px solid violet;
-} */
+    /* border: 1px solid violet; */
+}
