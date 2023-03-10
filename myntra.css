@@ -12,7 +12,7 @@
     display: flex;
     justify-content:space-around;
     /* align-items: center; */
-    padding: 20px 0px;
+    padding: 20px 10px;
     box-shadow: 0px 3px 14px #f0f0f0;
 
 }
@@ -27,7 +27,7 @@
 .nav-link{
     width: 40%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 .nav-link .nav-item h1{
@@ -43,31 +43,38 @@
     color: #ff3f6c;
     font-weight: bold;
 }
+
 .searchbar{
-    width: 30%;
-    margin-top: 7px;
-    margin-bottom: 7px;
+    width: 30%;  
     display: flex;
-    justify-content: space-around;
+    align-items: center;  
+  
+
+}
+.search-item{
+    display: flex;
+    justify-content:left;
+    gap: 20px;
+    width: 100%;
     align-items: center;
     background-color: #f0f0f0;
-    border-radius: 6px;
+    border-radius: 8px;
+    padding: 10px 10px 10px 15px;
+    
+
 }
-.searchbar i{
+.search-item i{
     color: gray;
-    width: 15%;
-    text-align: center;
+   
 }
-.searchbar input{
+.search-item input{
     border: none;
-    width: 85%;
+    width: 100%;
     background-color: #f0f0f0;
     outline: none;
     font-size: smaller;
-    padding: 10px;
-
 }
-.searchbar input ::placeholder{
+.search-item input ::placeholder{
     font-size: smaller;
     
 }
