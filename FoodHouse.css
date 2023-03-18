@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.screen{
+    width: 100%;
+    /* height: 100vh; */
+    background-color: #cccccc;
+}
+.container{
+    width: 90%;
+    /* margin: auto auto; */
+    border: 1px solid transparent;
+}
+.container:nth-child(1){
+    width: 90%;
+    height:75vh;
+    margin: auto ;
+
+    background-image: url(img/foodhouse/bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 75vh;
+    
+}
+.header-content{
+    width: 80%;
+    margin:  400px auto 30px auto;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+   
+    
+
+}
+.nav{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    /* border: 1px solid black; */
+    
+
+}
+.nav .nav-item:nth-child(1){
+    border-bottom: 1px solid white;
+}
+.title{
+    width: 40%;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    /* border: 1px solid sandybrown; */
+}
+.square{
+    width: 20%;
+    /* border: 1px solid black; */
+}
+.square i{
+    font-size: 75px;
+}
+.container-2{
+    width: 90%;
+    margin: auto auto;
+    background-color: white;
+}
+.greeting{
+    width: 60%;
+    /* border: 1px solid salmon; */
+    margin: auto;
+}
+.g-title{
+    padding-top: 35px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.g-content{
+ text-align: center;
+ margin-bottom: 30px;
+ line-height: 30px;
+
+}
+.food-options{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.food-options input[type=submit]{
+    background-color: white;
+    color: #2f956d;
+    padding: 10px ;
+    outline: none;
+    border: 1px solid #2f956d;
+    margin: 10px;
+    font-size: 15px;
+}
+
+.food-options input:hover{
+    background-color: #2f956d;
+    color: white;
+    padding: 10px ;
+    outline: none;
+    border: none;
+    margin: 10px;
+    font-size: 15px;
+
+
+}
+.container-3{
+    width: 90%;
+    margin: auto auto;
+    background-color: white;
+
+}
+
+.product-container{
+    width: 90%;
+    /* height: 100%; */
+    margin: auto ;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* border: 1px solid blue; */
+}
+.products{
+    width: 23%;
+    height: auto;
+    /* border: 1px solid black; */
+    margin-bottom: 20px;
+}
+
+.product-img{
+    width: 100%;
+    margin-bottom: 20px;
+    
+    
+}
+.product-img img{
+    width: 100%;
+    transition: transform .2s;
+}
+.product-img img:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.1); 
+  }
+.product-name{
+    width: 100%;
+    margin-bottom: 20px;
+    color: #1a6692;
+}
+.product-discr{
+    width: 100%;
+    margin-bottom: 20px;
+    line-height: 30px;
+}
+.price{
+    width: 100%;
+    margin-bottom: 20px;
+    color: green;
+}
+.container-4{
+    width: 90%;
+    margin: auto;
+    background-color: white;
+
+}
+.footer-container{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-img{
+    width: 45%;
+}
+.footer-img img{
+    width: 100%;
+}
+.footer-content{
+    width: 45%;
+}
+.footer-content h2{
+    margin-bottom: 15px;
+    color: #1a6692;
+}
+.footer-content p{
+    margin-bottom: 20px;
+    line-height: 30px;
+}
+
+.footer-content input[type=submit]{
+    padding: 10px 15px;
+    font-size: 15px;
+    float: right;
+}
+.footer-content input:hover{
+    background-color: gray;
+    color: white;
+    outline: none;
+    border: none;
+    margin: 10px; 
+    padding: 10px 15px;
+    font-size: 15px;
+    float: right;
+    
+
+}
+.copyright{
+    width: 90%;
+    margin: auto;
+    padding: 60px 30px 30px 30px;
+    /* margin: 30px; */
+    font-size: 20px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
